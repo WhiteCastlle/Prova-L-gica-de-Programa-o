@@ -1,7 +1,7 @@
 Algoritmo "semnome"
-//Primeira quest„o
-//Prova pr·tica
-//LÛgica de PrograÁ„o Algoritimica
+//Segunda quest√£o
+//Prova pr√°tica
+//L√≥gica de Progra√ß√£o Algoritimica
 Var
 numero : inteiro
 a,b,c : real
@@ -14,29 +14,29 @@ a <- numero%10
 b <- numero%5
 c <- numero%2
 
-se (a=0) e (b=0) e (c=0) ent„o
-escreval("… divisivel por 10, 5 e 2")
+se (a=0) e (b=0) e (c=0) ent√£o
+escreval("√â divisivel por 10, 5 e 2")
 fimse
-se (a=0) e (b=0) e (c<>0) ent„o
-escreval("… divisivel por 10 e 5")
+se (a=0) e (b=0) e (c<>0) ent√£o
+escreval("√â divisivel por 10 e 5")
 fimse
-se (a=0) e (b<>0) e (c<>0) ent„o
-escreval("… divisivel apenas por 10")
+se (a=0) e (b<>0) e (c<>0) ent√£o
+escreval("√â divisivel apenas por 10")
 fimse
-se (a<>0) e (b=0) e (c<>0) ent„o
-escreval("… divisivel apenas por 5")
+se (a<>0) e (b=0) e (c<>0) ent√£o
+escreval("√â divisivel apenas por 5")
 fimse
-se (a<>0) e (b<>0) e (c=0) ent„o
-escreval("… divisivel apenas por 2")
+se (a<>0) e (b<>0) e (c=0) ent√£o
+escreval("√â divisivel apenas por 2")
 fimse
-se (a=0) e (b<>0) e (c=0) ent„o
-escreval("… divisivel por 10 e 2")
+se (a=0) e (b<>0) e (c=0) ent√£o
+escreval("√â divisivel por 10 e 2")
 fimse
-se (a<>0) e (b=0) e (c=0) ent„o
-escreval("… divisivel por 5 e 2")
+se (a<>0) e (b=0) e (c=0) ent√£o
+escreval("√â divisivel por 5 e 2")
 fimse
-se (a<>0) e (b<>0) e (c<>0) ent„o
-escreval("N„o È divisivel por 10, 5 e 2")
+se (a<>0) e (b<>0) e (c<>0) ent√£o
+escreval("N√£o √© divisivel por 10, 5 e 2")
 fimse
 escreval(divisao)
 
